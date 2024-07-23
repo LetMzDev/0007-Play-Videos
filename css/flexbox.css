@@ -1,1 +1,7 @@
-
+.cabecalho__container {
+	display: flex;
+	justify-content: space-between; /* Os elementos ficarão dispostos da maneira que deseja */
+	align-items: center; /* Centraliza verticalmente o container ;*/
+	position: fixed; /* Deixa fixo na tela o elemento */
+	top: 0px; /* Posição do elemento fico */
+}
