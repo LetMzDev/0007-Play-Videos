@@ -118,4 +118,24 @@
 		align-items: center;
 		gap: 15px;
 	}
+
+	.menu__lista:nth-child(3) {
+		flex-direction: column-reverse;
+	}
+	/* Lista 4 */
+	.jogos {
+		order: 3;
+	}
+
+	.filmes {
+		order: 2;
+	}
+
+	.premium {
+		order: 1;
+	}
+
+	.mais__pagina {
+		order: 4;
+	}
 }
