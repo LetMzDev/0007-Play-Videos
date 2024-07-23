@@ -24,8 +24,21 @@
 
 .menu__lista {
 	display: flex;
+	justify-content: space-around;
+	height: 100%;
 }
 
+.menu__lista li {
+	align-self: center;	/* Essa propriedade permite alinhar cada elemento de forma única, diferente. */
+}
+
+.menu__itens {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+/* Aplica o estilo na lista 2, 3 e 4 */
 .menu__lista:nth-child(2),
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(4) {
@@ -57,6 +70,22 @@
 
 	.cabecalho__pesquisar__item {
 		display: block; /* Exibir barra de pesquisa mobile */
+	}
+
+	/* Menu Lateral */
+
+	.menu__container {
+		left: 0%;
+		height: auto; /*88%*/
+		width: 74px; /*6%*/
+		top: 80px; /*nao~~*/
+	}
+
+	.menu__lista {
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 33px; /*30px*/
+		padding-top: 15px; /*nao~~*/
 	}
 
 	/* Rodapé */
