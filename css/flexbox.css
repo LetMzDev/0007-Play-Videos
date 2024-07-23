@@ -1,17 +1,37 @@
+/* Cabeçalho */
+
 .cabecalho__container {
 	display: flex; /* transforma a lista em um container flex, permitindo que você utilize as outras propriedades para organizar os itens. */
 	justify-content: space-between; /* distribui os itens uniformemente, com espaço entre eles */
 	align-items: center; /* Centraliza verticalmente o container ;*/
 	position: fixed; /* Deixa fixo na tela o elemento */
-	top: 0px; /* Posição do elemento fico */
+	top: 0; /* Posição do elemento fico */
 }
 
 .cabecalho__pesquisar__item {
-	display: none;
+	display: none;	/* Ocultar a barra de pesquisa mobile */
 }
 
-@media screen and (min-width: 834px){
+/* Rodapé */
+
+.rodape__container {
+	display: flex;
+	/* flex-direction: column;	Por padrão display: flex: fica em linha, aqui muda para coluna
+	flex-wrap: wrap; Permite quebrarmos colunas em mais colunas ou linhas */
+	flex-flow: column wrap;
+}
+
+@media screen and (min-width: 834px) {
+
+	/* Cabeçalho */
+
 	.cabecalho__pesquisar__item {
-		display: block;
+		display: block; /* Exibir barra de pesquisa mobile */
+	}
+
+	/* Rodapé */
+
+	.rodape__container {
+		justify-content: space-between;
 	}
 }
