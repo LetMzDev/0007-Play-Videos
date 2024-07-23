@@ -12,6 +12,16 @@
 	display: none;	/* Ocultar a barra de pesquisa mobile */
 }
 
+/* Superior Seção */
+
+.superior__secao__container {
+	display: flex;
+	align-items: center;
+	white-space: nowrap; /* Remove a quebra de linha no texto */
+	overflow: scroll; /* Aplica a Barra de Rolagem */
+	gap: 15px /* Adiciona espaços entre itens do flexbox */
+}
+
 /* Rodapé */
 
 .rodape__container {
