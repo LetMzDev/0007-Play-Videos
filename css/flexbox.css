@@ -55,6 +55,11 @@
 	gap: 15px /* Adiciona espaços entre itens do flexbox */
 }
 
+.videos__item {
+	height: 303px;
+	width: 280px;
+}
+
 /* Rodapé */
 
 .rodape__container {
@@ -88,6 +93,9 @@
 		padding-top: 15px; /*nao~~*/
 	}
 
+	/* Vídeos */
+
+	
 	/* Rodapé */
 
 	.rodape__container {
